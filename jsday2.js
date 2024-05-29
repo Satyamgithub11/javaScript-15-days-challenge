@@ -64,3 +64,68 @@ let cond2 = a === 6;
 console.log("cond1 || cond2 = ", a < b || a === 6);
 console.log(" !(6 < 5) =  ", !(a < b));
 console.log("!(6 < 5) = ", !(a === 6));
+
+//conditional statement
+// let age = 25;
+
+// if(age >= 18) {
+//     console.log("You can vote")
+// }
+
+// if(age < 18) {
+//     console.log("You cannot vote");
+// }
+
+// question2 ----> 
+let mode = "dark";
+let color;
+
+if(mode === "dark") {
+    color = "black";
+}
+
+if(mode === "light") {
+    color = "white";
+}
+
+console.log(color);
+
+// question 3 ---> 
+// let color1 ;
+// if (mode === "dark") {
+//     color1 = "black";
+// } else {
+//     color1 = "white";
+// }
+// console.log(color1);
+
+// // question 4 
+// let Age = ("18");
+// if(Age >= 18) {
+//     console.log("vote");
+// } else{
+//     console.log("not vote")
+// }
+
+// question 5 else if statement
+let age = prompt('Enter the age')
+
+if(age < 18) {
+    console.log("junior");
+}
+else if (age > 60) {
+    console.log("senior");
+}
+else {
+    console.log("middle");
+}
+
+// odd or even
+let num = 9;
+if(num % 2 === 0) {
+    console.log("even");
+} else {
+    console.log("odd");
+};
+
+
