@@ -1,6 +1,6 @@
 // day 2 operators and conditional statement
 
-console.log("hello");  // to comment the single line comment.
+// console.log("hello");  // to comment the single line comment.
 
 //Artimetic operator
 // let a = 5;
@@ -55,15 +55,15 @@ console.log("hello");  // to comment the single line comment.
 // console.log("a <= b ", a <= b);
 
 // question ---logical operators
-let a = 6;
-let b = 5;
+// let a = 6;
+// let b = 5;
 
-let cond1 = a > b ;
-let cond2 = a === 6;
-//console.log("cond1 && cond2 = ", cond1 && cond2);
-console.log("cond1 || cond2 = ", a < b || a === 6);
-console.log(" !(6 < 5) =  ", !(a < b));
-console.log("!(6 < 5) = ", !(a === 6));
+// let cond1 = a > b ;
+// let cond2 = a === 6;
+// //console.log("cond1 && cond2 = ", cond1 && cond2);
+// console.log("cond1 || cond2 = ", a < b || a === 6);
+// console.log(" !(6 < 5) =  ", !(a < b));
+// console.log("!(6 < 5) = ", !(a === 6));
 
 //conditional statement
 // let age = 25;
@@ -77,18 +77,18 @@ console.log("!(6 < 5) = ", !(a === 6));
 // }
 
 // question2 ----> 
-let mode = "dark";
-let color;
+// let mode = "dark";
+// let color;
 
-if(mode === "dark") {
-    color = "black";
-}
+// if(mode === "dark") {
+//     color = "black";
+// }
 
-if(mode === "light") {
-    color = "white";
-}
+// if(mode === "light") {
+//     color = "white";
+// }
 
-console.log(color);
+// console.log(color);
 
 // question 3 ---> 
 // let color1 ;
@@ -108,24 +108,76 @@ console.log(color);
 // }
 
 // question 5 else if statement
-let age = prompt('Enter the age')
+// let age = prompt('Enter the age')
 
-if(age < 18) {
-    console.log("junior");
-}
-else if (age > 60) {
-    console.log("senior");
-}
-else {
-    console.log("middle");
-}
+// if(age < 18) {
+//     console.log("junior");
+// }
+// else if (age > 60) {
+//     console.log("senior");
+// }
+// else {
+//     console.log("middle");
+// }
 
 // odd or even
-let num = 9;
-if(num % 2 === 0) {
-    console.log("even");
+// let num = 9;
+// if(num % 2 === 0) {
+//     console.log("even");
+// } else {
+//     console.log("odd");
+// };
+
+// question --
+// let Mode = "dark";
+// let color = "white";
+
+// if( Mode === "dark") {
+//     color = "black";
+// } else if (Mode === "blue"){
+//     color = "blue";
+// } else if (Mode === "pink") {
+//     color = "pink";
+// } else {
+//     color = "white";
+// }
+
+// console.log(color)
+
+// // question
+// let age = 17;
+
+// let result = age >= 18 ? "adult" : "not adult";
+// console.log(result);
+
+// question 1 ---> write a javascript function to check weather number is even or odd.
+// here is the first method to write this program
+// let num = prompt("Enter a num");
+
+// if (num % 2 === 0) {
+//     console.log("This is Even mumber")
+// } else {
+//     console.log("This is odd number")
+// }
+
+// here is the 2nd method to write a program 
+function checkEvenorodd(number) {
+    if(number % 2 === 0) {
+        return "Even";
+    }
+    else{
+        return "Odd"
+    }
+}
+
+console.log(checkEvenorodd(2));
+console.log(checkEvenorodd(5));
+
+// question 5 -- > 
+let num = prompt("enter a number");
+
+if (num % 5 === 0) {
+    console.log(num, "is multiple of 5")
 } else {
-    console.log("odd");
-};
-
-
+    console.log(num, "is not a multiple of 5 ")
+}
