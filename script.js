@@ -1,85 +1,59 @@
-// Day 1 in Js  Variable and Data Type
-// here is my first code in javascript
-// console.log("Welcome to our college");
-// console.log("Satyam Kumar");
-// console.log("I love javascript")
+// Basic variable Declaration
+// How do you declare  a variable in javascript using `let`?
+let x;
 
-// //
-// name = "tony stark";
-// console.log(name);
+// constant declaration;
+// How do you declare a constant in javaScript?
+const y = 3;
 
-// //
-// age = 24;
-// console.log(age);
+// variable initialization;
+// How do you declare and initilaze a variable in one line using "var" ?
 
-// //
-// price = 45;
-// console.log(price)
+var z = 6;
 
-// // 
-// x = null;
-// console.log(x);
+// string type;
+// How do you create a string variable in Javascript
 
-// // 
-// y = undefined;
-// console.log(y);
+let name = "John";
 
-// // fullName = "satyam";
-// // fullname = "Satyam Kumar";
+// Number types;
+// How do you create a number variable in Javascript
 
-// // console.log(fullname);
-// // console.log(fullName);
+let age = 30;
 
-// var fullName = "Tony Stark";
-// var age = 24;
-// var totalPrice = 67.80
+// Boolean type
+//How do you create a boolean variable in javascript
+let isMerried = false;
 
-// console.log(age);
-// console.log(totalPrice);
-// console.log(fullName);
+// Undefined type
+// what is the value of an uninitialized variable in javascript
 
-// const PI = 3.14;
-// console.log(PI)
+let value ;
+console.log(value); //undefined
 
+//Null type ;
+// How do you explicity assing `null` to a variable
 
-// isFollow = true;
+let emptyValue = null;
 
-// x = null;
+//object type//
+// How do you create an object in javascript
+let person = {first: 'John', lastName: 'cameso'};
 
-let y = BigInt("123");
+// Array type
+// How do you check the data type of a veriable in javascript
+let b = 4;
+console.log(typeof x); // Undefined 
 
+// string concatenation
+// How do you concatenate two string i  javascirpt
+let greeting = "Hello";
+let Name = "satyam";
+let message = greeting + Name; // Not showing output
 
-//question 1
-const student = {
-    fullName : "Satyam kumar",
-    age : 24,
-    cgpa : 7.26,
-    isPass: true,
-};
+// Tamplete Literals;
+// How do you template literal for string interpolation ?
+let name1 = 'Alice';
+let greeting1 = `hello, ${name1}`;
 
-student ["age"] = student["age"] + 1;
-student["name"] = "satyam choudhary";
-
-console.log(student["name"])
-
-// question 2 create a const object called "product" to store information shown in this picture.
-const product = {
-    name : 'parker jotter',
-    price : 270,
-    review : 4.3,
-    offer: 5
-};
-
-console.log(product)
-
-//question 3 : create a const "profile" to store information shown in this picture
-
-const profile = {
-    userName : "Shradha Khapra",
-    post : 195,
-    follower : 596,
-    following : 4,
-    isFollow : true,
-};
-
-console.log(profile);
+    
