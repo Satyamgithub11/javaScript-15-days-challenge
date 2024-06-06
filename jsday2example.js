@@ -9,6 +9,7 @@
 //     console.log("This is odd")
 //}
 
+
 // question 2 -> create a program that check if a given year is leap year
 function isLeapYear(year) {
     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
@@ -37,5 +38,8 @@ function factorial(number){
         return number * factorial(number - 1);
     }
 }
-console.log(factorial(9))
-console.log(factorial(3))
+console.log(factorial(9));
+console.log(factorial(3));
+
+
+// print all even numbers from 0 to 100
